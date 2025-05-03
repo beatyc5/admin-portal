@@ -15,7 +15,7 @@ import InputLabel from '@mui/material/InputLabel';
 import FormControl from '@mui/material/FormControl';
 // Import Firestore
 import { getFirestore, collection, setDoc, doc, getDocs } from "firebase/firestore";
-import { auth } from "../firebaseConfig";
+import { auth } from "../firebaseConFig";
 
 const db = typeof window !== "undefined" ? getFirestore() : null; // Prevent SSR issues
 
